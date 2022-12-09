@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User Name : asdasads@mailinator.com--->password : galaxy@123 C Password : galaxy@123--->The password may only contain letters and numbers. --> Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : 142752754--->password : galaxy123 C Password : galaxy123 ---> Please enter a valid email address.--->Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : 142752754--->password : galaxy123 C Password : galaxy123--->The password may only contain letters and numbers. --> Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : asdascdv cx vdfgbdf--->password : galaxy@123 C Password : galaxy@123 ---> Please enter a valid email address.--->Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : asdascdv cx vdfgbdf--->password : galaxy@123 C Password : galaxy@123--->The password may only contain letters and numbers. --> Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : @#@$#%#!@--->password : galaxy@123 C Password : galaxy123 ---> Please enter a valid email address.--->Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : @#@$#%#!@--->password : galaxy@123 C Password : galaxy123--->The password may only contain letters and numbers. --> Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : @#@$#%#!@--->password :  C Password : galaxy123--->Password does not match. --> --->Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : @#@#vdfsvds@1213213--->password : galaxy123 C Password : galaxy123 ---> Please enter a valid email address.--->Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : @#@#vdfsvds@1213213--->password : galaxy123 C Password : galaxy123--->The password may only contain letters and numbers. --> Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : havsdghv7#dshb.com--->password : galaxy!123 C Password : galaxy123 ---> Please enter a valid email address.--->Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : havsdghv7#dshb.com--->password : galaxy!123 C Password : galaxy123--->The password may only contain letters and numbers. --> Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : havsdghv7#dshb.com--->password :  C Password : galaxy123--->Password does not match. --> --->Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : abcd@mailinator.com--->password : galaxy123 C Password : galaxy12345--->The password may only contain letters and numbers. --> Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : abcd@mailinator.com--->password :  C Password : galaxy12345--->Password does not match. --> --->Fail]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[User Name : abcde@mailinator.com--->password : galaxy123 C Password : galaxy123--->Sign Up Success--->Pass]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-17T13:09:52 IST" name="Suite" finished-at="2022-10-17T13:10:48 IST" duration-ms="55259">
+    <groups>
+    </groups>
+    <test started-at="2022-10-17T13:09:52 IST" name="Test" finished-at="2022-10-17T13:10:48 IST" duration-ms="55259">
+      <class name="Sign_Up_Page_Test.Sign_Up_Page_Test">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Sign_Up_Page_Test.Sign_Up_Page_Test@2dc54ad4]" started-at="2022-10-17T13:09:52 IST" name="OpenBrowser" finished-at="2022-10-17T13:10:03 IST" duration-ms="10183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="Login_With_multiple_data()[pri:0, instance:Sign_Up_Page_Test.Sign_Up_Page_Test@2dc54ad4]" started-at="2022-10-17T13:10:03 IST" name="Login_With_multiple_data" finished-at="2022-10-17T13:10:45 IST" duration-ms="42867" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=106.0.5249.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-18BP1P8', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [35337ff9ee7c7fb76fc61e1246b60d4b70f1f164, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.62, chrome: {chromedriverVersion: 106.0.5249.21 (71f4e2c9a6f3..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:1700}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 35337ff9ee7c7fb76fc61e1246b...}
+Session ID: 35337ff9ee7c7fb76fc61e1246b60d4b70f1f164]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=106.0.5249.62)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-18BP1P8', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [35337ff9ee7c7fb76fc61e1246b60d4b70f1f164, findElement {using=id, value=email}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.62, chrome: {chromedriverVersion: 106.0.5249.21 (71f4e2c9a6f3..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:1700}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 35337ff9ee7c7fb76fc61e1246b...}
+Session ID: 35337ff9ee7c7fb76fc61e1246b60d4b70f1f164
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at Sign_Up_Page_POM.Sign_Up_Page_Pom.SignUp_With_Multiple_data(Sign_Up_Page_Pom.java:55)
+at Sign_Up_Page_Test.Sign_Up_Page_Test.Login_With_multiple_data(Sign_Up_Page_Test.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[User Name : asdasads@mailinator.com--->password : galaxy@123 C Password : galaxy@123--->The password may only contain letters and numbers. --> Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : 142752754--->password : galaxy123 C Password : galaxy123 ---> Please enter a valid email address.--->Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : 142752754--->password : galaxy123 C Password : galaxy123--->The password may only contain letters and numbers. --> Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : asdascdv cx vdfgbdf--->password : galaxy@123 C Password : galaxy@123 ---> Please enter a valid email address.--->Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : asdascdv cx vdfgbdf--->password : galaxy@123 C Password : galaxy@123--->The password may only contain letters and numbers. --> Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : @#@$#%#!@--->password : galaxy@123 C Password : galaxy123 ---> Please enter a valid email address.--->Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : @#@$#%#!@--->password : galaxy@123 C Password : galaxy123--->The password may only contain letters and numbers. --> Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : @#@$#%#!@--->password :  C Password : galaxy123--->Password does not match. --> --->Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : @#@#vdfsvds@1213213--->password : galaxy123 C Password : galaxy123 ---> Please enter a valid email address.--->Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : @#@#vdfsvds@1213213--->password : galaxy123 C Password : galaxy123--->The password may only contain letters and numbers. --> Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : havsdghv7#dshb.com--->password : galaxy!123 C Password : galaxy123 ---> Please enter a valid email address.--->Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : havsdghv7#dshb.com--->password : galaxy!123 C Password : galaxy123--->The password may only contain letters and numbers. --> Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : havsdghv7#dshb.com--->password :  C Password : galaxy123--->Password does not match. --> --->Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : abcd@mailinator.com--->password : galaxy123 C Password : galaxy12345--->The password may only contain letters and numbers. --> Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : abcd@mailinator.com--->password :  C Password : galaxy12345--->Password does not match. --> --->Fail]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[User Name : abcde@mailinator.com--->password : galaxy123 C Password : galaxy123--->Sign Up Success--->Pass]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_With_multiple_data -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Sign_Up_Page_Test.Sign_Up_Page_Test@2dc54ad4]" started-at="2022-10-17T13:10:45 IST" name="closeBrowser" finished-at="2022-10-17T13:10:48 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Sign_Up_Page_Test.Sign_Up_Page_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
